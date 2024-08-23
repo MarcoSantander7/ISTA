@@ -14,7 +14,7 @@ services:
   backend:
     build: ./PersonaBACKEND
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5433/persona-db
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/persona-db
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: admin
     ports:
